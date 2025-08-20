@@ -1,0 +1,20 @@
+.flair {
+    position: fixed;
+    opacity: 0;
+    width: 70px;
+    pointer-events: none; /* 防止元素干扰鼠标事件 */
+    z-index: 1000; /* 确保元素在最上层 */
+}
+
+body {
+    height: 300vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* 防止水平滚动条 */
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
